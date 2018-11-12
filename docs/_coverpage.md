@@ -2,5 +2,5 @@
 
 > An overall exploration of Hadoop & MapReduce
 
-[Source Code](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[Source Code](https://shoodey.github.io/Hadoop)
+[Get Started](#hadoop-amp-mapreduce)
