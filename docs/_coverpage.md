@@ -2,5 +2,5 @@
 
 > An overall exploration of Hadoop & MapReduce
 
-[Source Code](https://shoodey.github.io/Hadoop)
+[Source Code](https://github.com/Shoodey/Hadoop)
 [Get Started](#hadoop-amp-mapreduce)
