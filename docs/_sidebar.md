@@ -1,3 +1,4 @@
+* [Hadoop & MapReduce](/)
 * [Initial Setup](initial-setup.md)
 * [Hadoop](hadoop.md)
 * [Dynamic Workers](dynamic-workers.md)
