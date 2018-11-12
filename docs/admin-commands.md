@@ -152,7 +152,7 @@ Safe mode maintenance command. Safe mode is a namenode state in which it
 
 Safe mode is entered automatically at namenode startup, and leaves safe mode automatically when the configured minimum percentage of blocks satisfies the minimum replication condition. Safe mode can also be entered manually, but then it can only be turned off manually as well.
 
-![alt text](_images/safe-mode.png)
+![alt text](_images/safe-mode.PNG)
 <span class="caption">Figure 20. Safe mode status</span>
 
 ## hadoop distcp

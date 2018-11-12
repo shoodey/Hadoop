@@ -17,20 +17,20 @@ On the master node, we need to run **hadoop-start-all** which will start the HDF
 
 ?> _hduser@master_ hadoop-start-all
 
-![alt text](_images/start-all.png)
+![alt text](_images/start-all.PNG)
 <span class="caption">Figure 7. hadoop-start-all command</span>
 
-![alt text](_images/master-jps.png)
+![alt text](_images/master-jps.PNG)
 <span class="caption">Figure 8. Running jps on master</span>
 
-![alt text](_images/worker-jps.png)
+![alt text](_images/worker-jps.PNG)
 <span class="caption">Figure 9. Running jps on worker</span>
 
 ## Overview
 
 Once we're done with the commands, we can leave the terminal away and take a look at Hadoop's interface by visiting [master:9870](http://master:9870) from our host machine.
 
-![alt text](_images/hadoop-overview.png)
+![alt text](_images/hadoop-overview.PNG)
 <span class="caption">Figure 10. Hadoop's overview page</span>
 
 Amongst the most notable information:
@@ -45,14 +45,14 @@ We can see all the nodes that are part of our cluster, running without issues.
 
 **Note:** Due to the screenshots being taken after the end of the project, as the HDFS already contains some files, the blocks initial values were 0 and capacity was minimal, the same goes for block pool used.
 
-![alt text](_images/hadoop-datanodes.png)
+![alt text](_images/hadoop-datanodes.PNG)
 <span class="caption">Figure 11. Hadoop's datanodes page</span>
 
 ## Filesystem
 
 **Note:** This section is a bit ahead of time, but we have decided to include it here since he are showcasing Hadoop's interface.
 
-![alt text](_images/hadoop-file-system.png)
+![alt text](_images/hadoop-file-system.PNG)
 <span class="caption">Figure 12. Hadoop's file system page</span>
 
 We can see that the root of our FS contains two folder: **tmp** that was created by yarn to store some temporary files and logs. If you're interested, here is the recursive content of the folder that can be viewed by running
@@ -121,11 +121,11 @@ The change can be done on **hdfs-site.xml** as follows:
 </property>
 ```
 
-![alt text](_images/fs-training-set.png)
+![alt text](_images/fs-training-set.PNG)
 <span class="caption">Figure 13. Training set information</span>
 
 We can also note that the file only spans one block *Block 0* and is present of 3 datanodes (worker2, worker4, worker3) chosen at random and based on availability, process that is done by the master.
 
 
-![alt text](_images/fs-training-set-blocks.png ':size=500%')
+![alt text](_images/fs-training-set-blocks.PNG ':size=500%')
 <span class="caption">Figure 14. Training set replication</span>

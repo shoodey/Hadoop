@@ -15,22 +15,22 @@ The machines we will be installing are Master and Base-Worker that will serve as
 Once the installation is complete, we have our Master and Base-Worker VMs ready to go. During the installation process, we have set the username to "hduser" and the machine names respectively to "master" and "base-worker".
 
 
-![alt text](_images/initial-vms-list.png)
+![alt text](_images/initial-vms-list.PNG)
 <span class="caption">Figure 1. List of initial virtual machines</span>
 
 ## Local Network
 
 Each virtual machine has access to the outside network through its host but we still need to configure a local network that will link all the virtual machine to allow direct LAN communication. To do so we access the host network manager and set the configuration as follows :
 
-![alt text](_images/host-net-1.png)
+![alt text](_images/host-net-1.PNG)
 <span class="caption">Figure 2. Host Network Manager part 1</span>
 
-![alt text](_images/host-net-2.png)
+![alt text](_images/host-net-2.PNG)
 <span class="caption">Figure 3. Host Network Manager part 2</span>
 
 Lastly we need to specify that our two initial virtual machines will be using the new network interface. We can set the VMs' configuration as follows:
 
-![alt text](_images/vm-net-settings.png)
+![alt text](_images/vm-net-settings.PNG)
 <span class="caption">Figure 4. Virtual Machine Network Settings</span>
 
 ## Dependencies

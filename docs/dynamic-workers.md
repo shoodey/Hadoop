@@ -57,7 +57,7 @@ ifconfig $NETWORK_INTERFACE | grep netmask | awk '{print $2}'| cut -f2 -d:
 
 Since we have defined ssh access on all nodes and added the host's key to all the VMs authorized keys files, we no longer need to start the VMs with their interface as they are of no use to us. we can simply run them in headless mode, meaning that they will be running in the background which reduces the load on our host machine.
 
-![alt text](_images/headless.png)
+![alt text](_images/headless.PNG)
 <span class="caption">Figure 5. VMs Headless Start</span>
 
 To access the VM we can simply run *ssh hduser@master* and replace master with any node hostname as we have defined them in our hosts file. This the standard way of accessing virtual machines, especially remote one that can be rented from the cloud.
@@ -76,5 +76,5 @@ alias sshw5 = 'ssh hduser@worker5'
 
 In short, to ssh into master, we simply run **sshm**. We then open 5 tabs where we run all our virtual machines.
 
-![alt text](_images/cmder.png)
+![alt text](_images/cmder.PNG)
 <span class="caption">Figure 6. Remote Access to VMs</span>

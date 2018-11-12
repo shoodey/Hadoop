@@ -8,15 +8,15 @@ For this purpose we have decided to use [Weka 3](https://www.google.com/search?q
 
 We do not wish to go in detail of the process of using weka, but it has allowed us to define which attributes are most important as well as how many distinct values they have as well as their count.
 
-![alt text](_images/weka.png ':size=500%')
+![alt text](_images/weka.PNG ':size=500%')
 <span class="caption">Figure 15. Weka</span>
 
 Overall we got to know that duration, protocol and sbyte are the most relevant attributes and that protocol's most important values to handle are: *udp*, *arp*, *tcp*, *ospf*, *sctp* and *unas*, in addition the important duration windows were (0 | 0.16 | +) and sbyte's (0 | 109 | 128 | 201 | +)
 
-![alt text](_images/weka-attributes.png ':size=500%')
+![alt text](_images/weka-attributes.PNG ':size=500%')
 <span class="caption">Figure 16. Weka's defined relevant attributes</span>
 
 We have also used Weka to generate the decision tree rules for us, as it impossible to do manually by hand.
 
-![alt text](_images/weka-rules.png ':size=500%')
+![alt text](_images/weka-rules.PNG ':size=500%')
 <span class="caption">Figure 17. Weka's generated rules</span>

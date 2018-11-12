@@ -56,12 +56,12 @@ The result of running the MapReduce can be seen on the confusion matrix:
 
 As expected, the accuracy is still of 64.29% the same as when running the decision tree program without map reduce. We can view the confusion matrix output from the interface's file system explorer:
 
-![alt text](_images/confusion-matrix.png)
+![alt text](_images/confusion-matrix.PNG)
 <span class="caption">Figure 18. Confusion Matrix</span>
 
 It is shown as a directory hence the "d" in its permissions "drwxr-xr-x" 
 
-![alt text](_images/confusion-matrix-details.png)
+![alt text](_images/confusion-matrix-details.PNG)
 <span class="caption">Figure 19. Confusion Matrix Details</span>
 
 Hadoop creates the **_SUCCESS** file to indicate that the job has been terminated successfully and a second file **part-r-00000** as **part-x-yyyyy** where:
